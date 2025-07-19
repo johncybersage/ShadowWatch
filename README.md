@@ -1,51 +1,35 @@
-<<<<<<< HEAD
-# 🛡️ ShadowWatch_Pro
+# 🕵️‍♂️ ShadowWatch
 
-A cross-platform Personal Threat Intelligence Dashboard GUI using Sherlock and Nmap in Python.
+**ShadowWatch** is a personal threat intelligence dashboard for ethical hackers and cybersecurity learners. It combines powerful tools like **Sherlock**, **Nmap**, and **WHOIS lookup** into one intuitive Python GUI.
 
-## Features
-- Run Sherlock for username footprinting
-- Run Nmap for network scanning
-- Light/Dark Mode Toggle
-- Works on Mac, Windows, Linux
-
-## How to Run
-
-```bash
-pip install -r requirements.txt
-python shado# 🕵️‍♂️ ShadowWatch
-
-**ShadowWatch** is a powerful personal threat intelligence dashboard designed for ethical hackers, security researchers, and OSINT investigators. It combines popular tools like Sherlock, Nmap, and WHOIS into a single, user-friendly Python interface.
-
-> 🔒 Built for educational and lawful cybersecurity research only.
+> 🔒 Designed for educational and lawful cybersecurity use only.
 
 ---
 
 ## 🚀 Features
 
-- 🔍 **Username Footprinting** – Uses Sherlock to search over 300+ social platforms.
-- 🌐 **Nmap Integration** – Customizable scans for ports, services, OS detection, and more.
-- 🧠 **WHOIS Lookup** – Retrieves domain registration and ownership data.
-- 💾 **Save Results** – Export all findings for offline use or reporting.
-- 🖥️ **GUI Interface** – Easy to use, clean interface built with Tkinter.
+- 🔍 **Username Footprinting** – Search 300+ platforms with Sherlock
+- 🌐 **Nmap Integration** – Run customizable scans (open ports, OS detection, etc.)
+- 📛 **WHOIS Lookup** – Fetch domain registration and owner info
+- 💾 **Save Results** – Store outputs for reporting or offline use
+- 🖥️ **Simple GUI** – Built with Tkinter for smooth usability
 
 ---
 
 ## 📦 Tech Stack
 
-- **Language**: Python
+- **Language**: Python 3
 - **Libraries**: Tkinter, subprocess, whois
-- **Tools Integrated**: 
+- **Tools Integrated**:
   - [Sherlock](https://github.com/sherlock-project/sherlock)
   - [Nmap](https://nmap.org/)
-  - Python WHOIS module
+  - Python WHOIS
 
 ---
 
-## 📸 Screenshots
+## ⚡ Quick Install
 
-> *(Add screenshots here later by saving them in a `/screenshots` folder)*
-
-```md
-![ShadowWatch GUI](screenshots/shadowwatch_gui.png)
-
+```bash
+git clone https://github.com/johncybersage/ShadowWatch.git
+cd ShadowWatch
+bash install.sh
